@@ -130,7 +130,7 @@ export default function RegisterStudentPage() {
 
           {/* Earnings highlight */}
           <div
-            style={{ backgroundColor: 'var(--student-accent-light)', borderRadius: '12px', border: '1px solid #BBF7D0' }}
+            style={{ backgroundColor: 'var(--student-accent-light)', borderRadius: '12px', border: '1px solid #80C8C5' }}
             className="mb-8 p-5"
           >
             <div className="flex items-baseline gap-2">
@@ -232,7 +232,7 @@ export default function RegisterStudentPage() {
                       style={
                         form.languages.includes(lang.value)
                           ? { backgroundColor: 'var(--student-primary)', color: '#fff', borderRadius: '999px' }
-                          : { backgroundColor: '#F1F5F9', color: '#475569', borderRadius: '999px' }
+                          : { backgroundColor: '#E6F4F3', color: '#0B6E68', borderRadius: '999px' }
                       }
                       className="px-3 py-1 text-sm font-medium transition"
                     >

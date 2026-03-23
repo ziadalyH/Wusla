@@ -93,7 +93,7 @@ export default function NewRequestPage() {
             <select
               value={form.doctorType}
               onChange={(e) => setForm({ ...form, doctorType: e.target.value })}
-              className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-indigo-500 focus:outline-none"
+              className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-teal-700 focus:outline-none"
             >
               {DOCTOR_TYPES.map((t) => (
                 <option key={t}>{t}</option>
@@ -110,7 +110,7 @@ export default function NewRequestPage() {
               value={form.appointmentDate}
               onChange={(e) => setForm({ ...form, appointmentDate: e.target.value })}
               min={new Date(Date.now() + 60 * 60 * 1000).toISOString().slice(0, 16)}
-              className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-indigo-500 focus:outline-none"
+              className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-teal-700 focus:outline-none"
               required
             />
           </div>
@@ -123,7 +123,7 @@ export default function NewRequestPage() {
               type="text"
               value={form.appointmentAddress}
               onChange={(e) => setForm({ ...form, appointmentAddress: e.target.value })}
-              className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-indigo-500 focus:outline-none"
+              className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-teal-700 focus:outline-none"
               placeholder="e.g. Hauptstraße 1, 10117 Berlin"
               required
             />
@@ -141,7 +141,7 @@ export default function NewRequestPage() {
                   onClick={() => toggleLanguage(lang.value)}
                   className={`rounded-full px-3 py-1 text-sm font-medium transition ${
                     form.languagesNeeded.includes(lang.value)
-                      ? 'bg-indigo-600 text-white'
+                      ? 'bg-teal-700 text-white'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
                 >
@@ -159,7 +159,7 @@ export default function NewRequestPage() {
               type="number"
               value={form.budget}
               onChange={(e) => setForm({ ...form, budget: Number(e.target.value) })}
-              className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-indigo-500 focus:outline-none"
+              className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-teal-700 focus:outline-none"
               min={5}
               max={500}
               required
@@ -176,7 +176,7 @@ export default function NewRequestPage() {
             <textarea
               value={form.notes}
               onChange={(e) => setForm({ ...form, notes: e.target.value })}
-              className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-indigo-500 focus:outline-none"
+              className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-teal-700 focus:outline-none"
               rows={3}
               maxLength={500}
               placeholder="Any additional context for the companion..."
@@ -188,7 +188,7 @@ export default function NewRequestPage() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full rounded-lg bg-indigo-600 py-2.5 font-semibold text-white transition hover:bg-indigo-700 disabled:opacity-50"
+            className="w-full rounded-lg bg-teal-700 py-2.5 font-semibold text-white transition hover:bg-teal-800 disabled:opacity-50"
           >
             {loading ? 'Posting...' : 'Post Request'}
           </button>

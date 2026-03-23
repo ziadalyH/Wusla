@@ -75,7 +75,7 @@ async function StatsCards() {
         {stats.map((s) => (
           <div key={s.label} className="rounded-2xl bg-white p-5 shadow">
             <p className="text-sm text-gray-500">{s.label}</p>
-            <p className="mt-1 text-3xl font-bold text-indigo-600">{s.value}</p>
+            <p className="mt-1 text-3xl font-bold text-teal-700">{s.value}</p>
           </div>
         ))}
       </div>

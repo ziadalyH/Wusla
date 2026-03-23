@@ -72,7 +72,7 @@ export default function AdminSettingsPage() {
                 onClick={() => setSettings({ ...settings, matchingMode: mode.value })}
                 className={`w-full rounded-xl border-2 p-4 text-left transition ${
                   settings.matchingMode === mode.value
-                    ? 'border-indigo-500 bg-indigo-50'
+                    ? 'border-teal-700 bg-teal-50'
                     : 'border-gray-200 hover:border-gray-300'
                 }`}
               >
@@ -80,7 +80,7 @@ export default function AdminSettingsPage() {
                   <div
                     className={`h-4 w-4 rounded-full border-2 ${
                       settings.matchingMode === mode.value
-                        ? 'border-indigo-500 bg-indigo-500'
+                        ? 'border-teal-700 bg-teal-700'
                         : 'border-gray-400'
                     }`}
                   />
@@ -104,7 +104,7 @@ export default function AdminSettingsPage() {
               onChange={(e) =>
                 setSettings({ ...settings, platformFeePercent: Number(e.target.value) })
               }
-              className="w-24 rounded-lg border border-gray-300 px-3 py-2 text-center text-lg font-bold focus:border-indigo-500 focus:outline-none"
+              className="w-24 rounded-lg border border-gray-300 px-3 py-2 text-center text-lg font-bold focus:border-teal-700 focus:outline-none"
               min={0}
               max={50}
             />
@@ -142,7 +142,7 @@ export default function AdminSettingsPage() {
         <button
           onClick={save}
           disabled={saving}
-          className="w-full rounded-xl bg-indigo-600 py-3 font-semibold text-white transition hover:bg-indigo-700 disabled:opacity-50"
+          className="w-full rounded-xl bg-teal-700 py-3 font-semibold text-white transition hover:bg-teal-800 disabled:opacity-50"
         >
           {saving ? 'Saving...' : saved ? '✓ Saved!' : 'Save Settings'}
         </button>

@@ -37,7 +37,7 @@ export default async function StudentRequestDetailPage({ params }: Props) {
             <h1 className="text-2xl font-bold text-gray-800">{request.doctorType}</h1>
             <p className="mt-1 text-gray-500">Posted by {refugee.name}</p>
           </div>
-          <span className="text-3xl font-bold text-indigo-600">€{request.budget}</span>
+          <span className="text-3xl font-bold text-teal-700">€{request.budget}</span>
         </div>
 
         <div className="mt-4 space-y-3 border-t pt-4">
@@ -58,7 +58,7 @@ export default async function StudentRequestDetailPage({ params }: Props) {
             <span className="w-28 text-sm font-medium text-gray-500">Languages</span>
             <div className="flex flex-wrap gap-1">
               {request.languagesNeeded.map((l: string) => (
-                <span key={l} className="rounded-full bg-indigo-50 px-2 py-0.5 text-xs font-medium text-indigo-600">
+                <span key={l} className="rounded-full bg-teal-50 px-2 py-0.5 text-xs font-medium text-teal-700">
                   {LANGUAGE_LABELS[l] || l}
                 </span>
               ))}
@@ -78,8 +78,8 @@ export default async function StudentRequestDetailPage({ params }: Props) {
               This request is no longer accepting applications.
             </p>
           ) : existingApplication ? (
-            <div className="rounded-lg bg-indigo-50 p-4 text-center">
-              <p className="font-medium text-indigo-700">
+            <div className="rounded-lg bg-teal-50 p-4 text-center">
+              <p className="font-medium text-teal-800">
                 You have already applied — status:{' '}
                 <span className="capitalize">{existingApplication.status}</span>
               </p>

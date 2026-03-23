@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "home": "خانه",
+    "signIn": "ورود",
+    "signOut": "خروج",
+    "dashboard": "داشبورد",
+    "newRequest": "درخواست جدید",
+    "profile": "پروفایل",
+    "earnings": "درآمد",
+    "myRequests": "درخواست‌های من",
+    "browse": "مرور",
+    "mySessions": "جلسات من",
+    "overview": "نمای کلی",
+    "settings": "تنظیمات",
+    "getStarted": "شروع کنید"
+  },
+  "hero": {
+    "eyebrow": "Wusla · آلمان",
+    "headline": "ویزیت‌های پزشکی نباید به مترجمی نیاز داشته باشند که ندارید.",
+    "subheadline": "Wusla پناهندگان در آلمان را با دانشجویان دوزبانه برای ویزیت پزشکی و مراقبت‌های درمانی مرتبط می‌کند.",
+    "stat": "از پزشکان آلمان به عربی یا کردی صحبت می‌کنند",
+    "statSource": "BMC Primary Care, 2022",
+    "ctaRefugee": "به همراه نیاز دارم",
+    "ctaStudent": "می‌خواهم کمک کنم و درآمد داشته باشم",
+    "availability": "در دسترس در برلین · هامبورگ · مونیخ · گسترش ۲۰۲۶"
+  },
+  "auth": {
+    "signIn": "ورود",
+    "signUp": "ثبت نام",
+    "email": "ایمیل",
+    "password": "رمز عبور",
+    "name": "نام کامل",
+    "iAmA": "من یک...",
+    "refugee": "پناهنده",
+    "student": "دانشجو",
+    "alreadyHaveAccount": "قبلاً حساب دارید؟",
+    "noAccount": "حساب ندارید؟",
+    "registerAsRefugee": "ثبت نام به عنوان پناهنده",
+    "registerAsStudent": "ثبت نام به عنوان دانشجو",
+    "continueWithGoogle": "ادامه با Google"
+  },
+  "requests": {
+    "title": "پیدا کردن همراه",
+    "newRequest": "درخواست جدید",
+    "doctorType": "نوع پزشک",
+    "appointmentDate": "تاریخ قرار",
+    "address": "آدرس پزشک",
+    "languagesNeeded": "زبان‌های مورد نیاز",
+    "notes": "یادداشت (اختیاری)",
+    "budget": "بودجه (€)",
+    "submit": "ثبت درخواست",
+    "open": "باز",
+    "matched": "تطبیق داده شده",
+    "completed": "تکمیل شده",
+    "cancelled": "لغو شده",
+    "applicants": "متقاضیان",
+    "apply": "ثبت نام",
+    "coverNote": "پیام کوتاه (اختیاری)",
+    "noRequests": "درخواست باز یافت نشد",
+    "myRequests": "درخواست‌های من"
+  },
+  "doctorTypes": {
+    "General Practitioner": "پزشک عمومی",
+    "Dentist": "دندانپزشک",
+    "Gynecologist": "متخصص زنان",
+    "Pediatrician": "متخصص اطفال",
+    "Psychiatrist": "روانپزشک",
+    "Specialist": "متخصص",
+    "Emergency": "اورژانس",
+    "Other": "دیگر"
+  },
+  "languages": {
+    "ar": "عربی",
+    "ku": "کردی",
+    "en": "انگلیسی",
+    "de": "آلمانی",
+    "tr": "ترکی",
+    "fa": "فارسی/دری",
+    "so": "سومالیایی",
+    "fr": "فرانسوی",
+    "uk": "اوکراینی"
+  },
+  "match": {
+    "yourMatch": "همراه شما",
+    "chat": "چت",
+    "confirmVisit": "تأیید پایان ویزیت",
+    "pay": "پرداخت کنید",
+    "visitDone": "ویزیت انجام شد",
+    "paid": "پرداخت شده"
+  },
+  "payment": {
+    "title": "پرداخت به همراه",
+    "amount": "مبلغ",
+    "platformFee": "کارمزد پلتفرم",
+    "total": "جمع",
+    "pay": "پرداخت",
+    "success": "پرداخت موفق! ممنون."
+  },
+  "review": {
+    "title": "نظر بگذارید",
+    "rating": "امتیاز",
+    "comment": "نظر (اختیاری)",
+    "submit": "ثبت نظر"
+  },
+  "admin": {
+    "dashboard": "داشبورد ادمین",
+    "matchingMode": "حالت تطبیق",
+    "refugee_choice": "انتخاب پناهنده",
+    "first_come": "اول بیا اول برو",
+    "auto": "تطبیق خودکار",
+    "platformFee": "کارمزد پلتفرم (%)",
+    "save": "ذخیره تنظیمات",
+    "totalUsers": "کل کاربران",
+    "totalRequests": "کل درخواست‌ها",
+    "totalMatches": "کل تطبیق‌ها",
+    "revenue": "درآمد (€)"
+  },
+  "common": {
+    "loading": "در حال بارگذاری...",
+    "error": "مشکلی پیش آمد",
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "back": "برگشت",
+    "edit": "ویرایش",
+    "delete": "حذف",
+    "confirm": "تأیید",
+    "close": "بستن"
+  }
+}

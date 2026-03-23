@@ -69,7 +69,7 @@ export default async function StudentApplicationsPage({ params }: Props) {
             <p className="text-gray-500">You haven&apos;t applied to any requests yet.</p>
             <Link
               href={`/${locale}/student/dashboard`}
-              className="mt-4 inline-block rounded-lg bg-indigo-600 px-6 py-2 text-sm font-semibold text-white hover:bg-indigo-700"
+              className="mt-4 inline-block rounded-lg bg-teal-700 px-6 py-2 text-sm font-semibold text-white hover:bg-teal-800"
             >
               Browse requests
             </Link>
@@ -89,7 +89,7 @@ export default async function StudentApplicationsPage({ params }: Props) {
                 <div key={app._id.toString()} className="rounded-2xl bg-white p-5 shadow">
                   <div className="flex items-start gap-4">
                     {/* Doctor icon */}
-                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-2xl">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-teal-50 text-2xl">
                       {icon}
                     </div>
 
@@ -109,7 +109,7 @@ export default async function StudentApplicationsPage({ params }: Props) {
                             hour: '2-digit', minute: '2-digit',
                           })}
                           {isUpcoming && days <= 7 && (
-                            <span className="ml-1.5 font-medium text-indigo-600">
+                            <span className="ml-1.5 font-medium text-teal-700">
                               (in {days === 0 ? 'today' : days === 1 ? '1 day' : `${days} days`})
                             </span>
                           )}
@@ -120,13 +120,13 @@ export default async function StudentApplicationsPage({ params }: Props) {
                         📍 {req.appointmentAddress}
                       </p>
 
-                      <p className="mt-1.5 text-sm font-semibold text-indigo-600">€{req.budget}</p>
+                      <p className="mt-1.5 text-sm font-semibold text-teal-700">€{req.budget}</p>
 
                       {app.status === 'accepted' && req.matchId && (
                         <div className="mt-3 border-t pt-3">
                           <Link
                             href={`/${locale}/chat/${req.matchId}`}
-                            className="inline-flex items-center gap-1.5 rounded-lg bg-indigo-600 px-4 py-1.5 text-sm font-semibold text-white hover:bg-indigo-700"
+                            className="inline-flex items-center gap-1.5 rounded-lg bg-teal-700 px-4 py-1.5 text-sm font-semibold text-white hover:bg-teal-800"
                           >
                             💬 Open Chat
                           </Link>

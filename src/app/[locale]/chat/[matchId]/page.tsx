@@ -52,7 +52,7 @@ export default async function ChatPage({ params }: Props) {
             </p>
             <p className="text-sm text-gray-400">{request.appointmentAddress}</p>
           </div>
-          <span className="text-xl font-bold text-indigo-600">€{request.budget}</span>
+          <span className="text-xl font-bold text-teal-700">€{request.budget}</span>
         </div>
 
         {/* Status bar */}

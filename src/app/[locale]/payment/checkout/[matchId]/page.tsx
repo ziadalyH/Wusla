@@ -60,7 +60,7 @@ export default async function CheckoutPage({ params }: Props) {
             </div>
             <div className="flex justify-between border-t pt-2 text-base font-bold">
               <span>Total</span>
-              <span className="text-indigo-600">€{match.agreedAmount.toFixed(2)}</span>
+              <span className="text-teal-700">€{match.agreedAmount.toFixed(2)}</span>
             </div>
           </div>
         </div>

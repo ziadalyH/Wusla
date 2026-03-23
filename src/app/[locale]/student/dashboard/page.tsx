@@ -118,7 +118,7 @@ export default async function StudentDashboard({
                       {req.languagesNeeded.slice(0, 2).map((l: string) => (
                         <span
                           key={l}
-                          style={{ backgroundColor: '#F0FDF4', color: '#15803D', borderRadius: '4px' }}
+                          style={{ backgroundColor: '#E6F4F3', color: '#0B6E68', borderRadius: '4px' }}
                           className="px-2 py-0.5 text-xs font-semibold uppercase"
                         >
                           {LANG_LABELS[l] || l.toUpperCase()}

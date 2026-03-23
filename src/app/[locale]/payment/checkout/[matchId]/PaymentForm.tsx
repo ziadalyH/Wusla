@@ -43,7 +43,7 @@ function CheckoutForm({ matchId, locale }: { matchId: string; locale: string }) 
       <button
         type="submit"
         disabled={!stripe || loading}
-        className="w-full rounded-lg bg-indigo-600 py-3 font-semibold text-white hover:bg-indigo-700 disabled:opacity-50"
+        className="w-full rounded-lg bg-teal-700 py-3 font-semibold text-white hover:bg-teal-800 disabled:opacity-50"
       >
         {loading ? 'Processing...' : 'Pay Now'}
       </button>

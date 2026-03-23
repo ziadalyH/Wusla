@@ -121,7 +121,7 @@ export default function HomePage() {
                     className="rounded-full object-cover"
                     style={{ width: 44, height: 44 }}
                   />
-                  <span style={{ backgroundColor: '#F0FDF4', color: '#15803D', borderRadius: '4px' }}
+                  <span style={{ backgroundColor: '#E6F4F3', color: '#0B6E68', borderRadius: '4px' }}
                         className="px-2 py-0.5 text-xs font-semibold uppercase">
                     Arabic
                   </span>

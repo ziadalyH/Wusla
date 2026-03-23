@@ -97,7 +97,7 @@ export default function ChatWindow({
             <div key={msg._id} className={`flex ${isMine ? 'justify-end' : 'justify-start'}`}>
               <div className={`max-w-xs rounded-2xl px-4 py-2 text-sm lg:max-w-md ${
                 isMine
-                  ? 'rounded-br-sm bg-indigo-600 text-white'
+                  ? 'rounded-br-sm bg-teal-700 text-white'
                   : 'rounded-bl-sm bg-gray-100 text-gray-800'
               }`}>
                 {!isMine && (
@@ -106,7 +106,7 @@ export default function ChatWindow({
                   </p>
                 )}
                 <p>{msg.text}</p>
-                <p className={`mt-1 text-xs ${isMine ? 'text-indigo-200' : 'text-gray-400'}`}>
+                <p className={`mt-1 text-xs ${isMine ? 'text-teal-200' : 'text-gray-400'}`}>
                   {new Date(msg.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                 </p>
               </div>
@@ -123,12 +123,12 @@ export default function ChatWindow({
           value={text}
           onChange={(e) => setText(e.target.value)}
           placeholder="Type a message..."
-          className="flex-1 rounded-full border border-gray-300 px-4 py-2 text-sm focus:border-indigo-500 focus:outline-none"
+          className="flex-1 rounded-full border border-gray-300 px-4 py-2 text-sm focus:border-teal-700 focus:outline-none"
         />
         <button
           type="submit"
           disabled={sending || !text.trim()}
-          className="rounded-full bg-indigo-600 px-5 py-2 text-sm font-semibold text-white hover:bg-indigo-700 disabled:opacity-50"
+          className="rounded-full bg-teal-700 px-5 py-2 text-sm font-semibold text-white hover:bg-teal-800 disabled:opacity-50"
         >
           Send
         </button>

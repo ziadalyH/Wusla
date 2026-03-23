@@ -47,7 +47,7 @@ export default async function EarningsPage({ params }: Props) {
       </div>
 
       {/* Total */}
-      <div className="mb-6 rounded-2xl bg-indigo-600 p-6 text-white shadow">
+      <div className="mb-6 rounded-2xl bg-teal-700 p-6 text-white shadow">
         <p className="text-sm opacity-80">Total Earned</p>
         <p className="mt-1 text-4xl font-bold">€{totalEarned.toFixed(2)}</p>
         <p className="mt-1 text-sm opacity-70">{paidMatches.length} completed visits</p>

@@ -6,7 +6,23 @@
     "dashboard": "Dashboard",
     "newRequest": "New Request",
     "profile": "Profile",
-    "earnings": "Earnings"
+    "earnings": "Earnings",
+    "myRequests": "My Requests",
+    "browse": "Browse",
+    "mySessions": "My Sessions",
+    "overview": "Overview",
+    "settings": "Settings",
+    "getStarted": "Get started"
+  },
+  "hero": {
+    "eyebrow": "Wusla · Germany",
+    "headline": "Medical visits shouldn't require a translator you don't have.",
+    "subheadline": "Wusla connects refugees in Germany with bilingual student companions for doctor visits, specialist appointments, and hospital stays.",
+    "stat": "of doctors in Germany speak Arabic or Kurdish",
+    "statSource": "BMC Primary Care, 2022",
+    "ctaRefugee": "I need a companion",
+    "ctaStudent": "I want to help & earn",
+    "availability": "Available in Berlin · Hamburg · Munich · Expanding 2026"
   },
   "auth": {
     "signIn": "Sign In",
@@ -61,7 +77,8 @@
     "tr": "Turkish",
     "fa": "Farsi/Dari",
     "so": "Somali",
-    "fr": "French"
+    "fr": "French",
+    "uk": "Ukrainian"
   },
   "match": {
     "yourMatch": "Your Match",

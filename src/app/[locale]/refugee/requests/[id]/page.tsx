@@ -80,7 +80,7 @@ export default async function RefugeeRequestDetailPage({ params }: Props) {
             <p className="mt-1 text-gray-500">{request.appointmentAddress}</p>
             <div className="mt-2 flex flex-wrap gap-1">
               {request.languagesNeeded.map((l: string) => (
-                <span key={l} className="rounded-full bg-indigo-50 px-2 py-0.5 text-xs font-medium text-indigo-600">
+                <span key={l} className="rounded-full bg-teal-50 px-2 py-0.5 text-xs font-medium text-teal-700">
                   {l.toUpperCase()}
                 </span>
               ))}
@@ -91,7 +91,7 @@ export default async function RefugeeRequestDetailPage({ params }: Props) {
             <span className={`rounded-full px-3 py-1 text-xs font-medium ${statusColors[request.status]}`}>
               {request.status}
             </span>
-            <p className="mt-2 text-2xl font-bold text-indigo-600">€{request.budget}</p>
+            <p className="mt-2 text-2xl font-bold text-teal-700">€{request.budget}</p>
           </div>
         </div>
 
@@ -99,7 +99,7 @@ export default async function RefugeeRequestDetailPage({ params }: Props) {
           <div className="mt-4 border-t pt-4">
             <Link
               href={`/${locale}/chat/${match._id}`}
-              className="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700"
+              className="inline-flex items-center gap-2 rounded-lg bg-teal-700 px-4 py-2 text-sm font-semibold text-white hover:bg-teal-800"
             >
               💬 Open Chat
             </Link>
@@ -200,7 +200,7 @@ export default async function RefugeeRequestDetailPage({ params }: Props) {
                         {/* Languages */}
                         <div className="mt-2 flex flex-wrap gap-1">
                           {student.languages.map((l: string) => (
-                            <span key={l} className="rounded-full bg-indigo-50 px-2 py-0.5 text-xs font-medium text-indigo-600">
+                            <span key={l} className="rounded-full bg-teal-50 px-2 py-0.5 text-xs font-medium text-teal-700">
                               {l.toUpperCase()}
                             </span>
                           ))}

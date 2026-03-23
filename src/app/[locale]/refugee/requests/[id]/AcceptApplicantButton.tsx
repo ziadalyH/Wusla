@@ -54,7 +54,7 @@ export default function AcceptApplicantButton({
         onClick={accept}
         disabled={loading || !canAccept}
         title={!canAccept ? 'Student has not set up payments yet' : ''}
-        className="rounded-lg bg-indigo-600 px-4 py-1.5 text-sm font-semibold text-white hover:bg-indigo-700 disabled:opacity-40"
+        className="rounded-lg bg-teal-700 px-4 py-1.5 text-sm font-semibold text-white hover:bg-teal-800 disabled:opacity-40"
       >
         {loading ? '...' : 'Accept'}
       </button>

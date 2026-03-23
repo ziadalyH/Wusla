@@ -2,39 +2,48 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0a0a0a;
+  --primary: #0B6E68;
+  --primary-light: #E6F4F3;
+  --primary-muted: #80C8C5;
 
-  /* ── Refugee theme (warm amber / orange) ── */
-  --refugee-surface:        #FFF7ED;
-  --refugee-primary:        #EA580C;
-  --refugee-primary-light:  #FED7AA;
-  --refugee-text:           #1C1917;
-  --refugee-text-muted:     #78716C;
-  --refugee-border:         #FED7AA;
-  --refugee-accent:         #F97316;
+  /* ── Refugee theme ── */
+  --refugee-surface:        #E6F4F3;
+  --refugee-primary:        #0B6E68;
+  --refugee-primary-light:  #B3DEDD;
+  --refugee-text:           #0a0a0a;
+  --refugee-text-muted:     #4B5563;
+  --refugee-border:         #80C8C5;
+  --refugee-accent:         #0B6E68;
 
-  /* ── Student theme (emerald / green) ── */
-  --student-surface:        #F0FDF4;
-  --student-primary:        #16A34A;
-  --student-accent:         #22C55E;
-  --student-accent-light:   #DCFCE7;
-  --student-text:           #14532D;
+  /* ── Student theme ── */
+  --student-surface:        #E6F4F3;
+  --student-primary:        #0B6E68;
+  --student-accent:         #0B6E68;
+  --student-accent-light:   #B3DEDD;
+  --student-text:           #0a0a0a;
   --student-text-muted:     #4B5563;
-  --student-border:         #BBF7D0;
+  --student-border:         #80C8C5;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-muted: var(--primary-muted);
+  --color-refugee-surface: var(--refugee-surface);
+  --color-refugee-primary: var(--refugee-primary);
+  --color-refugee-primary-light: var(--refugee-primary-light);
+  --color-refugee-border: var(--refugee-border);
+  --color-refugee-accent: var(--refugee-accent);
+  --color-student-surface: var(--student-surface);
+  --color-student-primary: var(--student-primary);
+  --color-student-accent: var(--student-accent);
+  --color-student-accent-light: var(--student-accent-light);
+  --color-student-border: var(--student-border);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {

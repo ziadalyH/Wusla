@@ -62,7 +62,7 @@ export default async function AdminRequestsPage({ params }: Props) {
                 {req.matchId && (
                   <Link
                     href={`/${locale}/chat/${req.matchId}`}
-                    className="text-xs text-indigo-600 hover:underline"
+                    className="text-xs text-teal-700 hover:underline"
                   >
                     View chat →
                   </Link>
