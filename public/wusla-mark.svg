@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 32" fill="none" aria-label="Wusla">
+  <!-- Connecting arc — the wusla (link) between two people -->
+  <path d="M12 23 C12 7 44 7 44 23" stroke="#0B6E68" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Left node — refugee -->
+  <circle cx="12" cy="23" r="7.5" fill="#0B6E68"/>
+  <!-- Right node — student -->
+  <circle cx="44" cy="23" r="7.5" fill="#0B6E68"/>
+</svg>

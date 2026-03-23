@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Home",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "dashboard": "Dashboard",
+    "newRequest": "New Request",
+    "profile": "Profile",
+    "earnings": "Earnings"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "iAmA": "I am a...",
+    "refugee": "Refugee",
+    "student": "Student",
+    "alreadyHaveAccount": "Already have an account?",
+    "noAccount": "Don't have an account?",
+    "registerAsRefugee": "Register as Refugee",
+    "registerAsStudent": "Register as Student",
+    "continueWithGoogle": "Continue with Google"
+  },
+  "requests": {
+    "title": "Find a Companion",
+    "newRequest": "New Request",
+    "doctorType": "Doctor Type",
+    "appointmentDate": "Appointment Date",
+    "address": "Doctor's Address",
+    "languagesNeeded": "Languages Needed",
+    "notes": "Notes (optional)",
+    "budget": "Budget (€)",
+    "submit": "Post Request",
+    "open": "Open",
+    "matched": "Matched",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "applicants": "Applicants",
+    "apply": "Apply",
+    "coverNote": "Short message (optional)",
+    "noRequests": "No open requests found",
+    "myRequests": "My Requests"
+  },
+  "doctorTypes": {
+    "General Practitioner": "General Practitioner",
+    "Dentist": "Dentist",
+    "Gynecologist": "Gynecologist",
+    "Pediatrician": "Pediatrician",
+    "Psychiatrist": "Psychiatrist",
+    "Specialist": "Specialist",
+    "Emergency": "Emergency",
+    "Other": "Other"
+  },
+  "languages": {
+    "ar": "Arabic",
+    "ku": "Kurdish",
+    "en": "English",
+    "de": "German",
+    "tr": "Turkish",
+    "fa": "Farsi/Dari",
+    "so": "Somali",
+    "fr": "French"
+  },
+  "match": {
+    "yourMatch": "Your Match",
+    "chat": "Chat",
+    "confirmVisit": "Confirm Visit Done",
+    "pay": "Pay Now",
+    "visitDone": "Visit Done",
+    "paid": "Paid"
+  },
+  "payment": {
+    "title": "Pay Your Companion",
+    "amount": "Amount",
+    "platformFee": "Platform Fee",
+    "total": "Total",
+    "pay": "Pay",
+    "success": "Payment successful! Thank you."
+  },
+  "review": {
+    "title": "Leave a Review",
+    "rating": "Rating",
+    "comment": "Comment (optional)",
+    "submit": "Submit Review"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "matchingMode": "Matching Mode",
+    "refugee_choice": "Refugee Chooses",
+    "first_come": "First Come First Served",
+    "auto": "Auto Match",
+    "platformFee": "Platform Fee (%)",
+    "save": "Save Settings",
+    "totalUsers": "Total Users",
+    "totalRequests": "Total Requests",
+    "totalMatches": "Total Matches",
+    "revenue": "Revenue (€)"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "close": "Close"
+  }
+}

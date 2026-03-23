@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "signIn": "Anmelden",
+    "signOut": "Abmelden",
+    "dashboard": "Dashboard",
+    "newRequest": "Neue Anfrage",
+    "profile": "Profil",
+    "earnings": "Einnahmen"
+  },
+  "auth": {
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "name": "Vollständiger Name",
+    "iAmA": "Ich bin ein/e...",
+    "refugee": "Geflüchtete/r",
+    "student": "Student/in",
+    "alreadyHaveAccount": "Bereits ein Konto?",
+    "noAccount": "Noch kein Konto?",
+    "registerAsRefugee": "Als Geflüchtete/r registrieren",
+    "registerAsStudent": "Als Student/in registrieren",
+    "continueWithGoogle": "Mit Google fortfahren"
+  },
+  "requests": {
+    "title": "Begleitung finden",
+    "newRequest": "Neue Anfrage",
+    "doctorType": "Arztart",
+    "appointmentDate": "Termin Datum",
+    "address": "Arztadresse",
+    "languagesNeeded": "Benötigte Sprachen",
+    "notes": "Hinweise (optional)",
+    "budget": "Budget (€)",
+    "submit": "Anfrage stellen",
+    "open": "Offen",
+    "matched": "Zugewiesen",
+    "completed": "Abgeschlossen",
+    "cancelled": "Abgebrochen",
+    "applicants": "Bewerber",
+    "apply": "Bewerben",
+    "coverNote": "Kurze Nachricht (optional)",
+    "noRequests": "Keine offenen Anfragen gefunden",
+    "myRequests": "Meine Anfragen"
+  },
+  "doctorTypes": {
+    "General Practitioner": "Allgemeinarzt",
+    "Dentist": "Zahnarzt",
+    "Gynecologist": "Frauenarzt",
+    "Pediatrician": "Kinderarzt",
+    "Psychiatrist": "Psychiater",
+    "Specialist": "Facharzt",
+    "Emergency": "Notaufnahme",
+    "Other": "Sonstiges"
+  },
+  "languages": {
+    "ar": "Arabisch",
+    "ku": "Kurdisch",
+    "en": "Englisch",
+    "de": "Deutsch",
+    "tr": "Türkisch",
+    "fa": "Persisch/Dari",
+    "so": "Somali",
+    "fr": "Französisch"
+  },
+  "match": {
+    "yourMatch": "Ihre Begleitung",
+    "chat": "Chat",
+    "confirmVisit": "Besuch bestätigen",
+    "pay": "Jetzt bezahlen",
+    "visitDone": "Besuch erledigt",
+    "paid": "Bezahlt"
+  },
+  "payment": {
+    "title": "Begleitung bezahlen",
+    "amount": "Betrag",
+    "platformFee": "Plattformgebühr",
+    "total": "Gesamt",
+    "pay": "Bezahlen",
+    "success": "Zahlung erfolgreich! Vielen Dank."
+  },
+  "review": {
+    "title": "Bewertung abgeben",
+    "rating": "Bewertung",
+    "comment": "Kommentar (optional)",
+    "submit": "Bewertung abschicken"
+  },
+  "admin": {
+    "dashboard": "Admin-Dashboard",
+    "matchingMode": "Matching-Modus",
+    "refugee_choice": "Geflüchtete/r wählt",
+    "first_come": "Erster kommt zuerst",
+    "auto": "Automatisches Matching",
+    "platformFee": "Plattformgebühr (%)",
+    "save": "Einstellungen speichern",
+    "totalUsers": "Gesamtnutzer",
+    "totalRequests": "Gesamtanfragen",
+    "totalMatches": "Gesamtmatches",
+    "revenue": "Einnahmen (€)"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Etwas ist schiefgelaufen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "back": "Zurück",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "confirm": "Bestätigen",
+    "close": "Schließen"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "dashboard": "لوحة التحكم",
+    "newRequest": "طلب جديد",
+    "profile": "الملف الشخصي",
+    "earnings": "الأرباح"
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "name": "الاسم الكامل",
+    "iAmA": "أنا...",
+    "refugee": "لاجئ/ة",
+    "student": "طالب/ة",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "noAccount": "ليس لديك حساب؟",
+    "registerAsRefugee": "التسجيل كلاجئ",
+    "registerAsStudent": "التسجيل كطالب",
+    "continueWithGoogle": "المتابعة مع Google"
+  },
+  "requests": {
+    "title": "إيجاد مرافق",
+    "newRequest": "طلب جديد",
+    "doctorType": "نوع الطبيب",
+    "appointmentDate": "تاريخ الموعد",
+    "address": "عنوان العيادة",
+    "languagesNeeded": "اللغات المطلوبة",
+    "notes": "ملاحظات (اختياري)",
+    "budget": "الميزانية (€)",
+    "submit": "نشر الطلب",
+    "open": "مفتوح",
+    "matched": "تم التطابق",
+    "completed": "مكتمل",
+    "cancelled": "ملغي",
+    "applicants": "المتقدمون",
+    "apply": "تقدم",
+    "coverNote": "رسالة قصيرة (اختياري)",
+    "noRequests": "لا توجد طلبات مفتوحة",
+    "myRequests": "طلباتي"
+  },
+  "doctorTypes": {
+    "General Practitioner": "طبيب عام",
+    "Dentist": "طبيب أسنان",
+    "Gynecologist": "طبيب نساء",
+    "Pediatrician": "طبيب أطفال",
+    "Psychiatrist": "طبيب نفسي",
+    "Specialist": "طبيب متخصص",
+    "Emergency": "طوارئ",
+    "Other": "أخرى"
+  },
+  "languages": {
+    "ar": "العربية",
+    "ku": "الكردية",
+    "en": "الإنجليزية",
+    "de": "الألمانية",
+    "tr": "التركية",
+    "fa": "الفارسية/الدارية",
+    "so": "الصومالية",
+    "fr": "الفرنسية"
+  },
+  "match": {
+    "yourMatch": "مرافقك",
+    "chat": "المحادثة",
+    "confirmVisit": "تأكيد الزيارة",
+    "pay": "الدفع الآن",
+    "visitDone": "تمت الزيارة",
+    "paid": "تم الدفع"
+  },
+  "payment": {
+    "title": "الدفع للمرافق",
+    "amount": "المبلغ",
+    "platformFee": "رسوم المنصة",
+    "total": "الإجمالي",
+    "pay": "ادفع",
+    "success": "تمت عملية الدفع بنجاح! شكراً لك."
+  },
+  "review": {
+    "title": "اترك تقييماً",
+    "rating": "التقييم",
+    "comment": "تعليق (اختياري)",
+    "submit": "إرسال التقييم"
+  },
+  "admin": {
+    "dashboard": "لوحة الإدارة",
+    "matchingMode": "وضع التطابق",
+    "refugee_choice": "اختيار اللاجئ",
+    "first_come": "الأول يُخدَم أولاً",
+    "auto": "التطابق التلقائي",
+    "platformFee": "رسوم المنصة (%)",
+    "save": "حفظ الإعدادات",
+    "totalUsers": "إجمالي المستخدمين",
+    "totalRequests": "إجمالي الطلبات",
+    "totalMatches": "إجمالي المطابقات",
+    "revenue": "الإيرادات (€)"
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ ما",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "back": "رجوع",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "confirm": "تأكيد",
+    "close": "إغلاق"
+  }
+}

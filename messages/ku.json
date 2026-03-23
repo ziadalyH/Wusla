@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "ماڵەوە",
+    "signIn": "چوونەژوورەوە",
+    "signOut": "دەرچوون",
+    "dashboard": "داشبۆرد",
+    "newRequest": "داواکاری نوێ",
+    "profile": "پرۆفایل",
+    "earnings": "داهات"
+  },
+  "auth": {
+    "signIn": "چوونەژوورەوە",
+    "signUp": "تۆمارکردن",
+    "email": "ئیمەیڵ",
+    "password": "وشەی نهێنی",
+    "name": "ناوی تەواو",
+    "iAmA": "من...",
+    "refugee": "پەنابەر",
+    "student": "خوێندکار",
+    "alreadyHaveAccount": "پێشتر ئەکاونتت هەیە؟",
+    "noAccount": "ئەکاونتت نییە؟",
+    "registerAsRefugee": "تۆمارکردن وەک پەنابەر",
+    "registerAsStudent": "تۆمارکردن وەک خوێندکار",
+    "continueWithGoogle": "بەردەوامبوون لەگەڵ Google"
+  },
+  "requests": {
+    "title": "دۆزینەوەی هاوڕێ",
+    "newRequest": "داواکاری نوێ",
+    "doctorType": "جۆری دکتۆر",
+    "appointmentDate": "بەرواری سەردان",
+    "address": "ناونیشانی دکتۆر",
+    "languagesNeeded": "زمانە پێویستەکان",
+    "notes": "تێبینی (ئارەزووی)",
+    "budget": "بودجە (€)",
+    "submit": "ناردنی داواکاری",
+    "open": "کراوە",
+    "matched": "هاوتاکراو",
+    "completed": "تەواوبوو",
+    "cancelled": "هەڵوەشێنراوە",
+    "applicants": "داواکاران",
+    "apply": "داوا بکە",
+    "coverNote": "پەیامێکی کورت (ئارەزووی)",
+    "noRequests": "هیچ داواکارییەکی کراوە نییە",
+    "myRequests": "داواکارییەکانم"
+  },
+  "doctorTypes": {
+    "General Practitioner": "دکتۆری گشتی",
+    "Dentist": "دندانپزیشک",
+    "Gynecologist": "دکتۆری ژنان",
+    "Pediatrician": "دکتۆری منداڵان",
+    "Psychiatrist": "دکتۆری روانپزیشکی",
+    "Specialist": "پسپۆڕ",
+    "Emergency": "ئەورژانس",
+    "Other": "هیتر"
+  },
+  "languages": {
+    "ar": "عەرەبی",
+    "ku": "کوردی",
+    "en": "ئینگلیزی",
+    "de": "ئەڵمانی",
+    "tr": "تورکی",
+    "fa": "فارسی/داری",
+    "so": "سۆمالی",
+    "fr": "فەرەنسی"
+  },
+  "match": {
+    "yourMatch": "هاوڕێکەت",
+    "chat": "چات",
+    "confirmVisit": "پشتڕاستکردنەوەی سەردان",
+    "pay": "ئێستا بدە",
+    "visitDone": "سەردان تەواوبوو",
+    "paid": "دراوە"
+  },
+  "payment": {
+    "title": "پارەدانی هاوڕێ",
+    "amount": "بڕی پارە",
+    "platformFee": "کرێی پلاتفۆرم",
+    "total": "کۆی گشتی",
+    "pay": "بدە",
+    "success": "پارەدان سەرکەوتوو بوو! سپاس."
+  },
+  "review": {
+    "title": "هەڵسەنگاندن بنووسە",
+    "rating": "هەڵسەنگاندن",
+    "comment": "şîrove (ئارەزووی)",
+    "submit": "ناردنی هەڵسەنگاندن"
+  },
+  "admin": {
+    "dashboard": "داشبۆردی ئەدمین",
+    "matchingMode": "شێوازی هاوتاکردن",
+    "refugee_choice": "پەنابەر دەست دەبژێرێت",
+    "first_come": "یەکەمین داواکار",
+    "auto": "هاوتاکردنی خۆکار",
+    "platformFee": "کرێی پلاتفۆرم (%)",
+    "save": "پاشەکەوتکردنی ڕێکخستنەکان",
+    "totalUsers": "کۆی بەکارهێنەران",
+    "totalRequests": "کۆی داواکارییەکان",
+    "totalMatches": "کۆی هاوتاکردنەکان",
+    "revenue": "داهات (€)"
+  },
+  "common": {
+    "loading": "بارکردن...",
+    "error": "هەڵەیەک ڕوویدا",
+    "save": "پاشەکەوتکردن",
+    "cancel": "هەڵوەشاندنەوە",
+    "back": "گەڕانەوە",
+    "edit": "دەستکاری",
+    "delete": "سڕینەوە",
+    "confirm": "پشتڕاستکردنەوە",
+    "close": "داخستن"
+  }
+}
