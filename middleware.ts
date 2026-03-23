@@ -1,4 +1,7 @@
-import { auth } from '@/lib/auth'
+import NextAuth from 'next-auth'
+import { authConfig } from '@/lib/auth.config'
+
+const { auth } = NextAuth(authConfig)
 import createMiddleware from 'next-intl/middleware'
 import { routing } from '@/i18n/routing'
 import { NextRequest, NextResponse } from 'next/server'

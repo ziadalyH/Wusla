@@ -40,7 +40,7 @@ export default function Navbar() {
 
         {/* Logged-in navigation */}
         {session?.user ? (
-          <div className="flex items-center gap-1">
+          <div className="flex flex-wrap items-center gap-1">
             {isRefugee && (
               <>
                 <NavLink href={`/${locale}/refugee/dashboard`}   active={isActive('dashboard')}  dark  label="My Requests" />
@@ -71,15 +71,7 @@ export default function Navbar() {
           </div>
         ) : (
           /* Public navigation */
-          <div className="flex items-center gap-3">
-            <Link
-              href={`/${locale}/auth/signup/refugee`}
-              style={{ backgroundColor: 'var(--refugee-primary)', borderRadius: '10px' }}
-              className="px-4 py-1.5 text-sm font-semibold text-white transition hover:opacity-90"
-            >
-              Get started
-            </Link>
-          </div>
+          <div />
         )}
       </div>
     </nav>

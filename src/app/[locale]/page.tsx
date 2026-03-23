@@ -61,7 +61,7 @@ export default function HomePage() {
           </div>
 
           {/* Language picker */}
-          <div className="mb-8 flex flex-wrap gap-2">
+          {/* <div className="mb-8 flex flex-wrap gap-2">
             {LOCALES.map((l) => (
               <button
                 key={l.value}
@@ -74,10 +74,10 @@ export default function HomePage() {
                 {l.label}
               </button>
             ))}
-          </div>
+          </div> */}
 
           {/* CTAs */}
-          <div className="flex flex-wrap gap-3">
+          {/* <div className="flex flex-wrap gap-3">
             <Link
               href={`/${locale}/auth/signup/refugee`}
               style={{ backgroundColor: 'var(--refugee-primary)', borderRadius: '14px' }}
@@ -92,7 +92,7 @@ export default function HomePage() {
             >
               I want to help & earn
             </Link>
-          </div>
+          </div> */}
 
           <p className="mt-4 text-xs text-gray-400">
             Available in Berlin · Hamburg · Munich · Expanding 2026
@@ -100,7 +100,7 @@ export default function HomePage() {
         </div>
 
         {/* Right: Product preview cards */}
-        <div className="relative hidden md:block">
+        <div className="relative">
           {/* Background split */}
           <div className="absolute inset-0 overflow-hidden rounded-2xl">
             <div style={{ backgroundColor: 'var(--refugee-surface)' }} className="absolute inset-x-0 top-0 h-1/2" />
@@ -121,7 +121,7 @@ export default function HomePage() {
                     className="rounded-full object-cover"
                     style={{ width: 44, height: 44 }}
                   />
-                  <span style={{ backgroundColor: '#F0FDF4', color: '#15803D', borderRadius: '4px' }}
+                  <span style={{ backgroundColor: 'var(--student-surface)', color: 'var(--student-primary)', borderRadius: '4px' }}
                         className="px-2 py-0.5 text-xs font-semibold uppercase">
                     Arabic
                   </span>

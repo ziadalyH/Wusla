@@ -13,14 +13,14 @@
   --refugee-border:         #FED7AA;
   --refugee-accent:         #F97316;
 
-  /* ── Student theme (emerald / green) ── */
-  --student-surface:        #F0FDF4;
-  --student-primary:        #16A34A;
-  --student-accent:         #22C55E;
-  --student-accent-light:   #DCFCE7;
-  --student-text:           #14532D;
+  /* ── Student theme (logo green) ── */
+  --student-surface:        #E6F4F3;
+  --student-primary:        #0B6E68;
+  --student-accent:         #0B6E68;
+  --student-accent-light:   #B3DEDD;
+  --student-text:           #1C1917;
   --student-text-muted:     #4B5563;
-  --student-border:         #BBF7D0;
+  --student-border:         #80C8C5;
 }
 
 @theme inline {

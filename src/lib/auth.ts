@@ -5,8 +5,10 @@ import bcrypt from 'bcryptjs'
 import { connectDB } from '@/lib/db'
 import User from '@/models/User'
 import type { Role } from '@/types'
+import { authConfig } from '@/lib/auth.config'
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
+  ...authConfig,
   providers: [
     Credentials({
       name: 'credentials',
@@ -39,18 +41,18 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     }),
   ],
   callbacks: {
+    ...authConfig.callbacks,
     async signIn({ user, account }) {
       if (account?.provider === 'google') {
         await connectDB()
         const existing = await User.findOne({ email: user.email })
         if (!existing) {
-          // New Google user — create with null role, will be set on role-selection page
           await User.create({
             email: user.email ?? '',
             name: user.name ?? '',
             avatar: user.image ?? undefined,
             googleId: user.id ?? undefined,
-            role: 'refugee', // default; role-selection page updates this
+            role: 'refugee',
             emailVerified: true,
           })
         }
@@ -62,7 +64,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         token.id = user.id
         token.role = (user as typeof user & { role: Role }).role
       }
-      // Always refresh role from DB on each token generation
       if (token.id && !token.role) {
         await connectDB()
         const dbUser = await User.findById(token.id).select('role')
@@ -70,19 +71,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       }
       return token
     },
-    async session({ session, token }) {
-      if (token) {
-        session.user.id = token.id as string
-        session.user.role = token.role as Role
-      }
-      return session
-    },
   },
-  pages: {
-    signIn: '/en/auth/signin',
-    error: '/en/auth/signin',
-  },
-  session: { strategy: 'jwt' },
 })
 
 // Extend next-auth types
