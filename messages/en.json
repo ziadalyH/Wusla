@@ -5,8 +5,13 @@
     "signOut": "Sign Out",
     "dashboard": "Dashboard",
     "newRequest": "New Request",
+    "myRequests": "My Requests",
+    "browse": "Browse",
+    "mySessions": "My Sessions",
     "profile": "Profile",
-    "earnings": "Earnings"
+    "earnings": "Earnings",
+    "overview": "Overview",
+    "settings": "Settings"
   },
   "auth": {
     "signIn": "Sign In",
@@ -97,6 +102,32 @@
     "totalRequests": "Total Requests",
     "totalMatches": "Total Matches",
     "revenue": "Revenue (€)"
+  },
+  "home": {
+    "eyebrow": "Wusla · Germany",
+    "headline": "Medical visits shouldn't require a translator you don't have.",
+    "subheadline": "Wusla connects refugees in Germany with bilingual student companions for doctor visits, specialist appointments, and hospital stays.",
+    "statNumber": "2.1M+",
+    "statDesc": "refugees and migrants in Germany can't fully communicate with their doctor",
+    "statSource": "BAMF, 2024",
+    "cities": "Available in Berlin · Hamburg · Munich · Expanding 2026",
+    "demoCard1Language": "Arabic",
+    "demoCard1Type": "Specialist visit",
+    "demoCard1Urgent": "Urgent",
+    "demoCard1Location": "Charité Berlin – Neurologie",
+    "demoCard1Time": "Sat 28 Mar · 10:30 – 12:00",
+    "demoCard1Distance": "Mitte · ~3.2 km from you",
+    "demoCard1Price": "for ~1.5h",
+    "demoCard1Amount": "€22.50",
+    "demoCard1Apply": "Apply",
+    "demoCard2Status": "Companion confirmed",
+    "demoCard2Name": "Ali K.",
+    "demoCard2Info": "FU Berlin · Medicine · 3rd year",
+    "demoCard2Rating": "4.9",
+    "demoCard2Date": "28 Mar · Charité Mitte",
+    "demoCard2View": "View →",
+    "ctaRefugee": "I need a companion",
+    "ctaStudent": "I want to help & earn"
   },
   "common": {
     "loading": "Loading...",

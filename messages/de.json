@@ -5,8 +5,13 @@
     "signOut": "Abmelden",
     "dashboard": "Dashboard",
     "newRequest": "Neue Anfrage",
+    "myRequests": "Meine Anfragen",
+    "browse": "Durchsuchen",
+    "mySessions": "Meine Begleitungen",
     "profile": "Profil",
-    "earnings": "Einnahmen"
+    "earnings": "Einnahmen",
+    "overview": "Übersicht",
+    "settings": "Einstellungen"
   },
   "auth": {
     "signIn": "Anmelden",
@@ -26,8 +31,8 @@
   "requests": {
     "title": "Begleitung finden",
     "newRequest": "Neue Anfrage",
-    "doctorType": "Arztart",
-    "appointmentDate": "Termin Datum",
+    "doctorType": "Arzttyp",
+    "appointmentDate": "Terminsdatum",
     "address": "Arztadresse",
     "languagesNeeded": "Benötigte Sprachen",
     "notes": "Hinweise (optional)",
@@ -44,12 +49,12 @@
     "myRequests": "Meine Anfragen"
   },
   "doctorTypes": {
-    "General Practitioner": "Allgemeinarzt",
-    "Dentist": "Zahnarzt",
-    "Gynecologist": "Frauenarzt",
-    "Pediatrician": "Kinderarzt",
-    "Psychiatrist": "Psychiater",
-    "Specialist": "Facharzt",
+    "General Practitioner": "Hausarzt/Hausärztin",
+    "Dentist": "Zahnarzt/Zahnärztin",
+    "Gynecologist": "Gynäkolog/in",
+    "Pediatrician": "Kinderarzt/Kinderärztin",
+    "Psychiatrist": "Psychiater/in",
+    "Specialist": "Facharzt/Fachärztin",
     "Emergency": "Notaufnahme",
     "Other": "Sonstiges"
   },
@@ -97,6 +102,32 @@
     "totalRequests": "Gesamtanfragen",
     "totalMatches": "Gesamtmatches",
     "revenue": "Einnahmen (€)"
+  },
+  "home": {
+    "eyebrow": "Wusla · Deutschland",
+    "headline": "Arztbesuche sollten keinen Dolmetscher erfordern, den du nicht hast.",
+    "subheadline": "Wusla verbindet Geflüchtete in Deutschland mit zweisprachigen studentischen Begleitpersonen für Arztbesuche, Facharzttermine und Krankenhausaufenthalte.",
+    "statNumber": "2,1 Mio.+",
+    "statDesc": "Geflüchtete und Migranten in Deutschland können sich nicht vollständig mit ihrem Arzt verständigen",
+    "statSource": "BAMF, 2024",
+    "cities": "Verfügbar in Berlin · Hamburg · München · Expansion 2026",
+    "demoCard1Language": "Arabisch",
+    "demoCard1Type": "Facharztbesuch",
+    "demoCard1Urgent": "Dringend",
+    "demoCard1Location": "Charité Berlin – Neurologie",
+    "demoCard1Time": "Sa 28 Mär · 10:30 – 12:00",
+    "demoCard1Distance": "Mitte · ~3,2 km von dir",
+    "demoCard1Price": "für ~1,5 Std.",
+    "demoCard1Amount": "22,50 €",
+    "demoCard1Apply": "Bewerben",
+    "demoCard2Status": "Begleitung bestätigt",
+    "demoCard2Name": "Ali K.",
+    "demoCard2Info": "FU Berlin · Medizin · 3. Jahr",
+    "demoCard2Rating": "4,9",
+    "demoCard2Date": "28 Mär · Charité Mitte",
+    "demoCard2View": "Ansehen →",
+    "ctaRefugee": "Ich brauche eine Begleitung",
+    "ctaStudent": "Ich möchte helfen & verdienen"
   },
   "common": {
     "loading": "Laden...",

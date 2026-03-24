@@ -6,7 +6,6 @@ import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import SessionProvider from '@/components/layout/SessionProvider'
 import Navbar from '@/components/layout/Navbar'
-import LocaleHtmlAttributes from '@/components/layout/LocaleHtmlAttributes'
 import './globals.css'
 
 const inter = Inter({
@@ -29,32 +28,36 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params
 
-  if (!routing.locales.includes(locale as 'en' | 'de' | 'ar' | 'ku')) {
+  if (!routing.locales.includes(locale as 'en' | 'de' | 'ar' | 'ku' | 'fa' | 'uk')) {
     notFound()
   }
 
-  const messages = await getMessages()
+  const messages = await getMessages({ locale })
+  const isRTL = locale === 'ar' || locale === 'ku' || locale === 'fa'
 
   return (
-    <div className={`${inter.variable} min-h-screen bg-white antialiased`}>
-      <LocaleHtmlAttributes locale={locale} />
-      {/* Arabic/Kurdish: load Noto Sans Arabic */}
-      {(locale === 'ar' || locale === 'ku') && (
-        <>
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-          />
-        </>
-      )}
-      <NextIntlClientProvider messages={messages}>
-        <SessionProvider>
-          <Navbar />
-          <main>{children}</main>
-        </SessionProvider>
-      </NextIntlClientProvider>
-    </div>
+    <html lang={locale} dir={isRTL ? 'rtl' : 'ltr'} suppressHydrationWarning>
+      <head>
+        {/* Arabic/Kurdish/Farsi: load Noto Sans Arabic */}
+        {isRTL && (
+          <>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+            <link
+              href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
+              rel="stylesheet"
+            />
+          </>
+        )}
+      </head>
+      <body className={`${inter.variable} min-h-screen bg-white antialiased`} suppressHydrationWarning>
+        <NextIntlClientProvider messages={messages} locale={locale}>
+          <SessionProvider>
+            <Navbar />
+            <main>{children}</main>
+          </SessionProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   )
 }

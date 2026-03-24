@@ -5,8 +5,13 @@
     "signOut": "دەرچوون",
     "dashboard": "داشبۆرد",
     "newRequest": "داواکاری نوێ",
+    "myRequests": "داواکارییەکانم",
+    "browse": "گەڕان",
+    "mySessions": "دانیشتنەکانم",
     "profile": "پرۆفایل",
-    "earnings": "داهات"
+    "earnings": "داهات",
+    "overview": "سەرنج",
+    "settings": "ڕێکخستنەکان"
   },
   "auth": {
     "signIn": "چوونەژوورەوە",
@@ -15,11 +20,11 @@
     "password": "وشەی نهێنی",
     "name": "ناوی تەواو",
     "iAmA": "من...",
-    "refugee": "پەنابەر",
+    "refugee": "هاتووی نوێ",
     "student": "خوێندکار",
     "alreadyHaveAccount": "پێشتر ئەکاونتت هەیە؟",
     "noAccount": "ئەکاونتت نییە؟",
-    "registerAsRefugee": "تۆمارکردن وەک پەنابەر",
+    "registerAsRefugee": "تۆمارکردن وەک هاتووی نوێ",
     "registerAsStudent": "تۆمارکردن وەک خوێندکار",
     "continueWithGoogle": "بەردەوامبوون لەگەڵ Google"
   },
@@ -82,7 +87,7 @@
   "review": {
     "title": "هەڵسەنگاندن بنووسە",
     "rating": "هەڵسەنگاندن",
-    "comment": "şîrove (ئارەزووی)",
+    "comment": "لێدوان (ئارەزووی)",
     "submit": "ناردنی هەڵسەنگاندن"
   },
   "admin": {
@@ -97,6 +102,32 @@
     "totalRequests": "کۆی داواکارییەکان",
     "totalMatches": "کۆی هاوتاکردنەکان",
     "revenue": "داهات (€)"
+  },
+  "home": {
+    "eyebrow": "وەسلە · ئەڵمانیا",
+    "headline": "سەردانی دکتۆر نابێت پێویستی بە وەرگێڕێک هەبێت کە لەلایەتدا نییە.",
+    "subheadline": "وەسلە هاتووە نوێکانی ئەڵمانیا بە هاوڕێیانی خوێندکار کە دوو زمان دەزانن دەبەستێتەوە بۆ سەردانی دکتۆر، چاوپێکەوتنی پسپۆڕ، و مانەوە لە نەخۆشخانە.",
+    "statNumber": "+٢٫١ ملیۆن",
+    "statDesc": "پەنابەر و کوچبەر لە ئەڵمانیا ناتوانن بە تەواوی لەگەڵ دکتۆرەکەیان قسە بکەن",
+    "statSource": "BAMF، ٢٠٢٤",
+    "cities": "بەردەستە لە بەرلین · هامبورگ · میونیخ · فراوانبوون ٢٠٢٦",
+    "demoCard1Language": "عەرەبی",
+    "demoCard1Type": "سەردانی پسپۆڕ",
+    "demoCard1Urgent": "پەلە",
+    "demoCard1Location": "نەخۆشخانەی شاریتێ بەرلین – نیورۆلۆژی",
+    "demoCard1Time": "شەممە 28 ئازار · 10:30 – 12:00",
+    "demoCard1Distance": "ناوچەی میتە · ~٣٫٢ کم لێت",
+    "demoCard1Price": "بۆ ~١٫٥ کاتژمێر",
+    "demoCard1Amount": "€٢٢٫٥٠",
+    "demoCard1Apply": "داوا بکە",
+    "demoCard2Status": "هاوڕێ پشتڕاستکرایەوە",
+    "demoCard2Name": "عەلی ک.",
+    "demoCard2Info": "زانکۆی ئازادی بەرلین · پزیشکی · ساڵی سێیەم",
+    "demoCard2Rating": "٤٫٩",
+    "demoCard2Date": "28 ئازار · شاریتێ میتە",
+    "demoCard2View": "بینین ←",
+    "ctaRefugee": "پێویستم بە هاوڕێیە",
+    "ctaStudent": "دەمەوێت یارمەتی بدەم و داهات دەست بکەم"
   },
   "common": {
     "loading": "بارکردن...",
