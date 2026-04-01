@@ -17,6 +17,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Wusla — Companion for Doctor Visits',
   description: 'Connecting refugees with student companions for doctor visits in Germany.',
+  icons: {
+    icon: '/Logo.png',
+    apple: '/Logo.png',
+  },
 }
 
 export default async function LocaleLayout({

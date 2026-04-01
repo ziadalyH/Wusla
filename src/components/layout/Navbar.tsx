@@ -37,7 +37,7 @@ export default function Navbar() {
 
         {/* Wordmark */}
         <Link href={`/${locale}`} className="flex items-center gap-2.5">
-          <Image src={logoMark} alt="" width={32} height={18} style={{ height: 'auto' }} priority />
+          <Image src="/Logo.png" alt="" width={32} height={32} style={{ height: 32, width: 'auto' }} priority />
           <span className={`text-lg font-bold tracking-[-0.04em] ${logoColor}`}>wusla</span>
         </Link>
 
