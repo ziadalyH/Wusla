@@ -3,6 +3,11 @@
 import { useLocale, useTranslations } from 'next-intl'
 import { Link } from '@/i18n/routing'
 import Image from 'next/image'
+import BusinessModelCards from '@/components/BusinessModelCards'
+import CompetitionMatrix from '@/components/CompetitionMatrix'
+import ProblemSlide from '@/components/ProblemSlide'
+import MarketSlide from '@/components/MarketSlide'
+import TractionSlide from '@/components/TractionSlide'
 
 const LOCALES = [
   { value: 'ar', label: 'العربية' },
@@ -122,17 +127,26 @@ export default function HomePage() {
                     className="rounded-full object-cover"
                     style={{ width: 44, height: 44 }}
                   />
-                  <span style={{ backgroundColor: 'var(--student-surface)', color: 'var(--student-primary)', borderRadius: '4px' }}
-                        className="px-2 py-0.5 text-xs font-semibold uppercase">
-                    {t('demoCard1Language')}
-                  </span>
-                  <span className="text-xs text-gray-400">{t('demoCard1Type')}</span>
+                  <div>
+                    <div className="flex items-center gap-1.5 flex-wrap">
+                      <span style={{ backgroundColor: 'var(--student-surface)', color: 'var(--student-primary)', borderRadius: '4px' }}
+                            className="px-2 py-0.5 text-xs font-semibold uppercase">
+                        {t('demoCard1Language')}
+                      </span>
+                      <span className="text-xs text-gray-400">{t('demoCard1Origin')}</span>
+                    </div>
+                    <span className="text-xs text-gray-400">{t('demoCard1Type')}</span>
+                  </div>
                 </div>
                 <span style={{ backgroundColor: '#FEF2F2', color: '#DC2626', borderRadius: '4px' }}
                       className="px-2 py-0.5 text-xs font-semibold">
                   {t('demoCard1Urgent')}
                 </span>
               </div>
+              <p style={{ backgroundColor: '#F9FAFB', borderRadius: '8px', borderLeft: '3px solid var(--refugee-primary)' }}
+                 className="mb-3 px-3 py-2 text-sm italic text-gray-600">
+                "{t('demoCard1Message')}"
+              </p>
               <p className="font-semibold text-gray-900">{t('demoCard1Location')}</p>
               <p className="mt-1 text-sm text-gray-500">{t('demoCard1Time')}</p>
               <p className="mt-0.5 text-sm text-gray-400">{t('demoCard1Distance')}</p>
@@ -187,6 +201,21 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ── Problem ────────────────────────────────────────────────── */}
+      <ProblemSlide />
+
+      {/* ── Traction ───────────────────────────────────────────────── */}
+      <TractionSlide />
+
+      {/* ── Market Opportunity ─────────────────────────────────────── */}
+      <MarketSlide />
+
+      {/* ── Business Model ─────────────────────────────────────────── */}
+      <BusinessModelCards />
+
+      {/* ── Competition Matrix ─────────────────────────────────────── */}
+      <CompetitionMatrix />
 
     </div>
   )
